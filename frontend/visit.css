@@ -1,0 +1,315 @@
+.img-visit
+{
+  width:100%;
+  height: 80%;
+  object-fit: cover;
+  display: block;
+  
+  border-radius:15%;
+  margin-top: 40px;
+  /* margin-left: 20px; */
+}
+.about-visit
+{
+  display: flex;
+}
+.about-para
+{
+  width: 900px;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 40px;
+  font-style: italic;
+} 
+.img-visiter
+{
+  width: 800px;
+  height: 670px;
+  
+}
+.para-visit
+{
+text-align: center;
+line-height: 2.5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* hero nav section */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sec-hero {
+    height: 200px;
+    background-image:
+        url("../assets/leaf2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 20px;
+    font-size: 28px;
+   padding-top: 20px;
+}
+
+ul li{
+
+    padding-top: 15px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+ul h1 {
+    margin-left: 100px;
+}
+.nav a {
+  text-decoration: none !important;
+  color: black !important;
+
+}
+
+
+    .contact-map{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+    gap:40px;
+
+}
+.footer-main1
+{
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+  padding: 10px;
+  
+}
+.footer-main2
+{
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  
+  /* padding: 10px; */
+}
+.footer-main3
+{
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  gap:10px;
+  margin-top: 20px;
+}
+
+.footer-body
+{
+  text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    gap: 40px;                 /* space between items */
+    /* background-color: #0a2a43; */
+    padding: 10px 0;
+    font-size: 20px;
+    /* background-color: darkblue; */
+}
+
+ 
+
+.footer-main p:hover {
+    color: #00bcd4;
+}
+.lastsection
+{
+  background-color:#3a464f;
+  /* background-color: rgb(227, 212, 212); */
+  color:aliceblue
+}
+.line
+{
+  
+  border-bottom: 2px solid rgb(107, 97, 97);
+  /* width:500px; */
+
+}
+.icons
+{
+  margin-left: 700px;
+}
+.icon
+{
+  margin:10px;
+}
+.navbar li:hover {
+  color: #00bcd4;
+}
+hr{
+  /* width: 550px; */
+  margin-right:70px;
+  margin-left: 70px;
+  background-color: rgb(111, 114, 118);
+}
+@media (max-width: 768px){
+
+  /* Prevent horizontal scroll */
+  html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Navbar mobile layout */
+  .nav{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav ul{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  ul h1{
+    margin-left: 0;
+  }
+
+  /* About Visit Section */
+  /* .about-visit{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  } */
+   .about-visit{
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+}
+
+  .about-visit{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-visiter{
+    margin: 20px auto;
+  }
+
+
+
+  .para-visit{
+    font-size: 22px;
+  }
+
+  .about-para{
+    font-size: 15px;
+    line-height: 1.6;
+    /* margin-right:40px; */
+    width: 300px;
+  }
+
+  /* Image Responsive */
+  .img-visiter{
+  margin: 30px auto 0 auto;   /* top auto center */
+  width: 310px;
+  height: 400px;
+}
+
+  .img-visit{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* Footer */
+  .lastsection{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-main1{
+    font-size: 22px;
+  }
+
+  .footer-main2{
+    font-size: 15px;
+  }
+
+  .footer-main3{
+    font-size: 13px;
+  }
+
+  hr{
+    margin: 20px;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+  .about-visit{
+    display: flex;
+    flex-direction: column;   /* Stack content */
+    align-items: center;      /* Center horizontally */
+    text-align: center;
+  }
+
+  .img-visiter{
+    width: 650px;      /* Slightly bigger for tablet */
+    height:auto;
+    margin: 20px auto;
+    margin-bottom: 80px; /* Perfect center */
+  }
+
+  .img-visit{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .about-para
+  {
+    width: 790px;
+  }
+
+}
