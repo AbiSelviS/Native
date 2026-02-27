@@ -1,11 +1,11 @@
-// Form select panrom
+
 const form = document.querySelector("form");
 
-// Submit event
+
 form.addEventListener("submit", function(event) {
-    event.preventDefault(); // Page reload aagatha stop panrom
+    event.preventDefault(); 
 
     alert("Your message has been sent successfully! ✅");
 
-    form.reset(); // Form clear aagum
+    form.reset(); 
 });
