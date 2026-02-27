@@ -37,7 +37,7 @@ display: none;
 }
 
 .navbar ul li {
-  color: rgb(5, 5, 5);
+  color: rgb(6, 6, 6);
 }
 
 .navbar li {
@@ -340,7 +340,10 @@ body{
 
     text-decoration: none;
   }
-
+   .navbar ul li 
+   {
+    color:rgb(12, 12, 12);
+   }
   .navbar li {
     padding: 6px 8px;
     font-size: 13px;
