@@ -26,8 +26,14 @@ foodBoxes.forEach((box, index) => {
 
 
 
-document.querySelectorAll(".img-box").forEach(box => {
-    box.onclick = function () {
-        box.classList.toggle("active");
-    };
+document.addEventListener("DOMContentLoaded", function () {
+
+  const cards = document.querySelectorAll(".images");
+
+  cards.forEach(function(card){
+    card.addEventListener("click", function(){
+      card.classList.toggle("active");
+    });
+  });
+
 });
